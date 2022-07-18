@@ -1,3 +1,105 @@
+body {
+    background-color: #f4f5e9;
+    font-family: 'Cormorant SC', serif;
+    color: #2b2b2b;
+}
+
+.basicInfo {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutJim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 2px solid #515252;
+    border-radius: 10px;
+    height: auto;
+    width: 1000px;
+    margin: 20px;
+    padding: 0 30px;
+    background-color: #d8e9eb;
+    font-size: 30px;
+}
+
+.aboutJim:hover {
+    background-color: #e9f7e1;
+    color: #636262;
+}
+
 img {
+    width: 400px;
+    height: 515px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.repParagraph {
+    font-size: 
+}
+
+#dem {
+    border: 1px solid #828282;
+    border-radius: 10px;
     width: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: #bcd4d6;
+}
+
+#dem:hover {
+    background-color: #d2e0ca;
+}
+
+.committees {
+    text-align: center;
+    font-size: 30px;
+    margin: 100px auto;
+    width: 1000px;
+}
+
+.enactedLegislation {
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto 100px;
+    width: 1300px;
+}
+
+h4 {
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style-position: inside; 
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+}
+
+li:hover {
+    list-style: circle;
+}
+
+a {
+    color: #6249ba;
+}
+
+a:hover {
+    color: #1aa31a;
 }
